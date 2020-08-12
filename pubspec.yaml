@@ -47,7 +47,7 @@ flutter:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
   assets:
-    - assets/back.jpg
+    - assets/back.png
     - assets/clubs.png
     - assets/diamonds.png
     - assets/hearts.png

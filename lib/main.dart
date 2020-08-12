@@ -39,7 +39,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String _backImage = 'assets/back.jpg';
+  String _backImage = 'assets/back.png';
   String _suit = '';
   String _power ='';
   Color _powerColor = Colors.black;
@@ -50,8 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
   void _tapOnCard() {
     setState(() {
       _makeTapNoise();
-      if (_backImage != 'assets/back.jpg') {
-        _backImage = 'assets/back.jpg';
+      if (_backImage != 'assets/back.png') {
+        _backImage = 'assets/back.png';
         _power = '';
         _suit = '';
       } else {
@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _swipeCard() {
     setState(() {
-      if (_backImage != 'assets/back.jpg') {
+      if (_backImage != 'assets/back.png') {
         _generateRandomCard();
       }
     });
